@@ -4,6 +4,7 @@ we analyzed the detection method by Yolov5 and compared them with other methods 
 
 ## get data
 Get Data collect data is our first mission to get data, we have some instruction in this project to don’t use benchmark dataset pre annotated before. So, we go throw write python script using “Beautifulsoup” library to send requests to scrap images from Google image website related to our topic “vehicle” and scripted up to 800 images. and annotate it manually.
+![final result graph](https://github.com/eslamahmed235/computer-vision-Car-Detection-Using-YOLOv5/blob/main/data/car%20annotate.png) <br/>
 ## Algorithm
 We chose YOLO V5 Algorithm to be our detection model in this project. YOLO algorithm based on convolutional neural networks (CNN) that detect objects in real time. To detect objects, the technique simply requires a single forward propagation through a neural network. We got throw 6 different experiments with different configurations and parameters to reach the best model
 and best performance shown in following figure and table <br/>
